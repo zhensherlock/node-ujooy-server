@@ -1,0 +1,22 @@
+{
+  "name": "node-ujooy-server",
+  "version": "1.0.0",
+  "description": "node-ujooy-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhensherlock/node-ujooy-server.git"
+  },
+  "author": "michael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhensherlock/node-ujooy-server/issues"
+  },
+  "homepage": "https://github.com/zhensherlock/node-ujooy-server#readme",
+  "devDependencies": {
+    "serialport": "^4.0.7"
+  }
+}

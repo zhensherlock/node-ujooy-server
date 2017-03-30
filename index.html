@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="button" value="write message" id="sendBtn" />
+</body>
+
+<script type="text/javascript" src="socket.io/socket.io.js"></script>
+<script type="text/javascript">
+    var socket = io.connect('localhost:3000'),//与服务器进行连接
+            send = document.getElementById('sendBtn');
+
+    send.onclick = function () {
+        socket.emit('write', 'hello!');
+    };
+</script>
+
+</html>

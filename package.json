@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/zhensherlock/node-ujooy-server#readme",
   "devDependencies": {
-    "serialport": "^4.0.7"
+    "serialport": "^4.0.7",
+    "socket.io-client": "^1.7.3"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^1.7.3"
   }
 }
